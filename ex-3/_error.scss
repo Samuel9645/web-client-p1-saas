@@ -1,0 +1,10 @@
+@use "message";
+.error-state {
+  @extend .message;
+  $pale-red: #ffcccc;
+  background-color: $pale-red;
+
+  a {
+    color: red;
+  }
+}
