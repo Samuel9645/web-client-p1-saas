@@ -1,0 +1,16 @@
+@use "flex-direction";
+
+@mixin block-visibility {
+  border: blue 2px solid;
+  margin: 2rem;
+}
+
+.column-flex {
+  @include block-visibility;
+  @include flex-direction.flex-column;
+}
+
+.row-flex {
+  @include block-visibility;
+  @include flex-direction.flex-row
+}

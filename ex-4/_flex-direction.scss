@@ -1,0 +1,18 @@
+@mixin base-flex {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  > * {
+    border: 2px solid green;
+  }
+}
+
+@mixin flex-row {
+  @include base-flex;
+  flex-direction: row;
+}
+
+@mixin flex-column {
+  @include base-flex;
+  flex-direction: column;
+}
