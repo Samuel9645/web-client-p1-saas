@@ -70,3 +70,5 @@ que transpila y funciona correctamente sobre algún ejemplo.
 Utiliza un bucle `@for` para generar 5 clases de espaciado llamadas `margin-1` a
 `.margin-5`. Cada clase debe tener un `margin` que se incremente en `10px` por
 cada iteración. Transpila el archivo y revisa el CSS generado.
+
+[ex-5](ex-5)
