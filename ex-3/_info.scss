@@ -1,0 +1,7 @@
+@use "message";
+
+.info-state {
+  @extend .message;
+  $pale-blue: #8bb5f6;
+  background-color: $pale-blue;
+}
