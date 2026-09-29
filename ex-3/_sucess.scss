@@ -1,0 +1,7 @@
+@use "message";
+
+.success-state {
+  @extend .message;
+  $pale-green: #aaf08b;
+  background-color: $pale-green;
+}
