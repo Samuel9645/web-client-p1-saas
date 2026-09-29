@@ -63,6 +63,8 @@ Crea dos mixins, uno que permita establecer la dirección de un contenedor
 flexbox y el otro que permita dar un tamaño específico en un elemento. Verifica
 que transpila y funciona correctamente sobre algún ejemplo.
 
+[ex-4](ex-4)
+
 # Ejercicio 5:
 
 Utiliza un bucle `@for` para generar 5 clases de espaciado llamadas `margin-1` a
