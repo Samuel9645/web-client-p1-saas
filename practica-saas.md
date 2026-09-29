@@ -43,9 +43,9 @@ Crea un parcial de definición de las variables para el color primario y
 secundario y utilizarlo para definir estilos para el body y los títulos h1 h2.
 Verifica que las variables se hayan aplicado correctamente.
 
-[_colors.scss](src/styles/_colors.scss)
+[_colors.scss](ex-2/_colors.scss)
 
-[main.scss](src/styles/main.scss)
+[main.scss](ex-2/main.scss)
 
 # Ejercicio 3:
 
