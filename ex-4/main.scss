@@ -1,4 +1,5 @@
 @use "flex-direction";
+@use "fit-size-to-content";
 
 @mixin block-visibility {
   border: blue 2px solid;
@@ -13,4 +14,8 @@
 .row-flex {
   @include block-visibility;
   @include flex-direction.flex-row
+}
+
+.minimum-size-item {
+  @include fit-size-to-content.fit-size-to-content;
 }
