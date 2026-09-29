@@ -45,6 +45,8 @@ Verifica que las variables se hayan aplicado correctamente.
 
 [_colors.scss](src/styles/_colors.scss)
 
+[main.scss](src/styles/main.scss)
+
 # Ejercicio 3:
 
 Construye una hoja de estilos Sass para un sistema de mensajes de estado (como
