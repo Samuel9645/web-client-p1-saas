@@ -43,9 +43,7 @@ Crea un parcial de definición de las variables para el color primario y
 secundario y utilizarlo para definir estilos para el body y los títulos h1 h2.
 Verifica que las variables se hayan aplicado correctamente.
 
-[_colors.scss](ex-2/_colors.scss)
-
-[main.scss](ex-2/main.scss)
+[ex-2](ex-2)
 
 # Ejercicio 3:
 
@@ -56,6 +54,8 @@ compile por sí solo, úsalos para definir estilos específicos para mensajes
 informativos, de error y de éxito. El color del fondo debe ser acorde con lo que
 representan. Además, los enlaces dentro del mensaje de error deben estar en
 negrita. Comprueba que se transpila correctamente.
+
+[ex-3](ex-3)
 
 # Ejercicio 4:
 
