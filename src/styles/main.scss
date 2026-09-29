@@ -1,0 +1,10 @@
+@use "colors";
+
+h1,
+h2 {
+  color: colors.$secondary;
+}
+
+body {
+  color: colors.$primary;
+}

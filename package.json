@@ -1,0 +1,13 @@
+{
+  "name": "web-client-p1-saas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "Samuel Rodríguez",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.105.0"
+  }
+}

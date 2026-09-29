@@ -7,7 +7,7 @@ Red.
 
 ## ull.es
 
-![Captura ull](recursos/ull.png)
+![Captura ull](resources/ull.png)
 
 | Fase de Red                                   | Duración  |
 |:----------------------------------------------|:----------|
@@ -23,7 +23,7 @@ Red.
 
 ## diariodeavisos.elespanol.com
 
-![Captura diario avisos](recursos/diario-avisos.png)
+![Captura diario avisos](resources/diario-avisos.png)
 
 | Fase de Red                                   | Duración  |
 |:----------------------------------------------|:----------|
@@ -40,8 +40,10 @@ Red.
 # Ejercicio 2:
 
 Crea un parcial de definición de las variables para el color primario y
-secundario y utilizarlo para definir estilos para el body y los títulos h1 h2
+secundario y utilizarlo para definir estilos para el body y los títulos h1 h2.
 Verifica que las variables se hayan aplicado correctamente.
+
+[_colors.scss](src/styles/_colors.scss)
 
 # Ejercicio 3:
 
