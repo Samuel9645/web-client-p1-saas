@@ -1,0 +1,72 @@
+@use "show-borders";
+@use "mixins";
+@use "variables";
+@use "base";
+@use "base-button";
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  @include show-borders.show-all-borders;
+  @include mixins.default-style;
+}
+
+.company-header {
+  @include mixins.default-item;
+  background-color: variables.$header-background-color;
+}
+
+.call-to-action-button {
+  @extend %base-button;
+
+  background-color: variables.$button-background-color;
+
+  &:active {
+    background-color: variables.$button-active-background-color;
+  }
+}
+
+.products-examples {
+  @include mixins.default-item;
+  background-color: variables.$products-background-color;
+}
+
+.call-to-action-form {
+  @include mixins.default-style;
+  background-color: variables.$form-background-color;
+}
+
+.form-buttons-container {
+  @include mixins.form-styles;
+  background-color: variables.$form-background-color;
+}
+
+.form-button {
+  @extend %base-button;
+  background-color: variables.$card-background-color;
+  border-color: black;
+  height: 10rem;
+
+  &:hover {
+    background-color: variables.$card-hover-background-color;
+  }
+}
+
+.warranties {
+  @include mixins.default-item;
+  background-color: variables.$warranties-background-color;
+
+  h2 {
+    color: variables.$secondary-heading-color;
+  }
+}
+
+.testimonials {
+  @include mixins.default-item;
+  background-color: variables.$testimonials-background-color;
+}
+
+.contact {
+  @include mixins.default-item;
+  background-color: variables.$contact-background-color;
+}

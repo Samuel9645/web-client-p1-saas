@@ -1,0 +1,29 @@
+.show-all-borders > * {
+  border: 2px solid green;
+}
+.show-all-borders {
+  border: 2px solid blue;
+}
+
+.fit-size-to-content {
+  width: fit-content;
+  height: fit-content;
+}
+
+.column-flex {
+  margin: 2rem;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.row-flex {
+  margin: 2rem;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=main.css.map */

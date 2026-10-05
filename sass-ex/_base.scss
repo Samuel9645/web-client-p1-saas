@@ -1,0 +1,12 @@
+@use "mixins";
+@use "variables";
+
+
+body {
+  @include mixins.base-font;
+}
+
+h1,
+h2 {
+  @include mixins.heading;
+}

@@ -1,0 +1,44 @@
+@use "variables";
+@use "show-borders";
+
+@mixin base-font {
+  font: {
+    size: variables.$font-size;
+    family: variables.$font-family;
+  }
+  text-align: center;
+}
+
+@mixin align-center {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+@mixin heading {
+  font: {
+    weight: bold;
+  }
+  color: variables.$primary-heading-color;
+}
+
+@mixin default-style {
+  @include show-borders.show-all-borders;
+  @include base-font;
+}
+
+@mixin form-styles {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  @include default-style;
+}
+
+@mixin default-item {
+  display: flex;
+  flex-direction: row;
+  gap: variables.$default-gap;
+  @include default-style;
+  @include align-center;
+}

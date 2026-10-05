@@ -1,0 +1,9 @@
+@use "mixins";
+
+%base-button {
+  @include mixins.default-style;
+  border-radius: 4rem;
+  &:focus {
+    background-color: grey;
+  }
+}
