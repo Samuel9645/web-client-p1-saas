@@ -1,0 +1,72 @@
+@use "show-borders";
+@use "mixins";
+@use "variables";
+@use "base";
+@use "base-card";
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  @include show-borders.show-all-borders;
+  @include mixins.default-style;
+}
+
+.company-header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.company-logo {
+  background-color: variables.$logo-background-color;
+}
+
+.company-name {
+  @include mixins.align-center;
+  background-color: variables.$company-name-background-color;
+}
+
+
+.products-examples {
+  background-color: variables.$card-container-background-color;
+}
+
+.call-to-action-form {
+  @include mixins.default-style;
+  background-color: variables.$form-background-color;
+}
+
+.card-container {
+  @include mixins.form-styles;
+}
+
+.product-card {
+  @extend %base-card;
+  background-color: variables.$product-card-background-color;
+
+  &:hover {
+    background-color: variables.$product-card-hover-background-color;
+  }
+}
+
+.client-card {
+  @extend %base-card;
+  background-color: variables.$client-card-background-color;
+
+  &:hover {
+    background-color: variables.$client-card-hover-background-color;
+  }
+}
+
+.warranties {
+  @include mixins.default-item;
+  background-color: variables.$warranties-background-color;
+}
+
+.testimonials {
+  background-color: variables.$card-container-background-color;
+}
+
+.contact {
+  @include mixins.default-item;
+  background-color: variables.$contact-background-color;
+}

@@ -1,0 +1,18 @@
+@mixin show-borders($color: red) {
+  border: 2px solid $color;
+}
+
+@mixin show-children-borders {
+  > * {
+    @include show-borders(green);
+  }
+}
+
+@mixin show-parent-borders {
+  @include show-borders(blue);
+}
+
+@mixin show-all-borders {
+  @include show-children-borders;
+  @include show-parent-borders;
+}

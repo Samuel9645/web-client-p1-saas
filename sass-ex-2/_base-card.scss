@@ -1,0 +1,11 @@
+@use "mixins";
+
+%base-card {
+  @include mixins.default-style;
+  height: 10rem;
+  border-radius: 4rem;
+
+  &:focus {
+    background-color: grey;
+  }
+}
