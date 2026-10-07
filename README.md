@@ -49,7 +49,14 @@ layout: [Ejercicio Sass](https://docs.google.com/presentation/d/109-kZ1IC4dpyCug
 
 [Ejercicio sass](sass-ex)
 
+### Página web
+
 ![Ejercicio Sass](resources/sass-ex.png)
+
+### Hover elementos form
+
+![Ejercicio Sass hover](resources/sass-ex-hover.png)
+
 
 ## Ejercicio Sass 2
 
@@ -58,4 +65,10 @@ documento [Landing Page](https://docs.google.com/presentation/d/14Gy5u7wxyNE0miH
 
 [Ejercicio sass 2](sass-ex-2)
 
-![Ejercicio Sass 2](sass-ex-2.png)
+### Página web
+
+![Ejercicio Sass 2](resources/sass-ex-2.png)
+
+### Hover / focus cartas form
+
+![Ejercicio Sass 2 hover focus](resources/sass-ex-2-hover-focus.png)
