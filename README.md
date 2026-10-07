@@ -48,3 +48,14 @@ Crear una página web usando Flex y Grid con el
 layout: [Ejercicio Sass](https://docs.google.com/presentation/d/109-kZ1IC4dpyCugxcpBYrlnIPLIgZ7O1Vo3P8RvpRTQ/edit?slide=id.g62f478f5cd_0_13#slide=id.g62f478f5cd_0_13)
 
 [Ejercicio sass](sass-ex)
+
+![Ejercicio Sass](resources/sass-ex.png)
+
+## Ejercicio Sass 2
+
+Crear los estilos en Sass que se indican en el
+documento [Landing Page](https://docs.google.com/presentation/d/14Gy5u7wxyNE0miHyw7o6G5A_2ANFLxyv9OOi6NY8q6w/edit?slide=id.p1#slide=id.p1)
+
+[Ejercicio sass 2](sass-ex-2)
+
+![Ejercicio Sass 2](sass-ex-2.png)
