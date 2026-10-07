@@ -43,7 +43,7 @@
   @extend %base-card;
   background-color: variables.$product-card-background-color;
 
-  &:hover {
+  &:hover, &:focus {
     background-color: variables.$product-card-hover-background-color;
   }
 }
@@ -52,7 +52,7 @@
   @extend %base-card;
   background-color: variables.$client-card-background-color;
 
-  &:hover {
+  &:hover, &:focus {
     background-color: variables.$client-card-hover-background-color;
   }
 }
